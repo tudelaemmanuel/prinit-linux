@@ -1,0 +1,2 @@
+// Set command args order
+command_scheme : [project_name][project_workspace][project_type]

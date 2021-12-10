@@ -1,0 +1,7 @@
+// Create predefined workspaces like that :
+// [workspace_name] : [workspace_location]
+// Don't skip spaces the program may crash
+// Only use '/' in workspace location !
+
+// - Example -
+// Desktop : /home/[username]/
