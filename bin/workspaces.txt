@@ -1,7 +1,7 @@
 // Create predefined workspaces like that :
 // [workspace_name] : [workspace_location]
-// Don't skip spaces the program may crash
+// The number of spaces must be exactly the same
 // Only use '/' in workspace location !
 
 // - Example -
-// Desktop : /home/[username]/
+Desktop : /mnt/c/Users/emman/Desktop
