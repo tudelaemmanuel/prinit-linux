@@ -8,7 +8,7 @@ Here is the version for linux users.
 
 - Download last release of prinit
 - Copy prinit folder and paste it in your home folder (You can add a '.' before it's name to make it hidden)
-- Add "~/prinit" or "~/.prinit" folder to $PATH : https://linuxize.com/post/how-to-add-directory-to-path-in-linux/
+- Add "[home]/prinit" or "[home]/.prinit" folder to $PATH : https://linuxize.com/post/how-to-add-directory-to-path-in-linux/
 
 You can use prinit like this :
 
@@ -51,3 +51,18 @@ _templates_ is the folder where templates folders are stored (cpp, c, etc...).
 - You can create new folders
 
 Everything will be handled automatically !
+
+# Options
+
+Options are stored in folders named like _!prinit-options_
+
+There is one global option folder stored in the root of prinit fodler
+and you can create template-options in template's folders
+
+Options will modify your template by merging the folders
+
+Non existing files will be added in your project files
+Existing files will be replaced (Files will be searched recursively, the first one found will be replaced)
+
+Template options can be specified with a '-' like "-option1"
+Global options can be specified with a '.' like ".option2"
