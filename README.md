@@ -56,8 +56,8 @@ Everything will be handled automatically !
 
 Options are stored in folders named like _!prinit-options_
 
-There is one global option folder stored in the root of prinit fodler
-and you can create template-options in template's folders
+There is one global option folder stored in the root of prinit folder
+and you can create !prinit-options in template's folders
 
 Options will modify your template by merging the folders
 
